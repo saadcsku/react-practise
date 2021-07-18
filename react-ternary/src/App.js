@@ -1,22 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import loader from './loader.gif'
 
 function App() {
+
+  const loading=false;
+  const onLoading=<img src={loader} className="loader" width="100px" height="100px" />;
+  const welcome =<h1>Welcome Saad</h1>;
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      {loading ?  onLoading: welcome}
       </header>
     </div>
   );
