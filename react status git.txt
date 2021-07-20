@@ -1,0 +1,22 @@
+1. State
+2. Props
+3. Components
+4. styles
+5. ternary 
+6.  rendering list
+7. forms
+8. props children
+
+
+
+1. Axios
+2. Context Api
+3. fragments-portal
+4. hooks
+5. lifecycle
+6. lifting state up
+7. redux
+8. validation
+9. Router
+10. Refs
+11. child to parent communication
