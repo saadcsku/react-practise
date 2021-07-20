@@ -1,25 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+   <form className="myForm">
+      <label>Name <input type="text" name="customer_name"  required/> </label> 
+      <p>
+         <label>
+            Pickup Place
+            <select id="pickup_place" name="pickup_place">
+               <option value="" >Select One</option>
+               <option value="office" >Taxi Office</option>
+               <option value="town_hall" >Town Hall</option>
+               <option value="telepathy" >We'll Guess!</option>
+            </select>
+         </label>
+      </p>
+      <p>
+         <label>Special Instructions
+         <textarea name="comments"></textarea>
+         </label>
+      </p>
+      <p><button>Submit Booking</button></p>
+   </form>
+
   );
 }
-
 export default App;
