@@ -6,6 +6,7 @@
 6.  rendering list
 7. forms
 8. props children
+9. Router
 
 
 
@@ -17,6 +18,5 @@
 6. lifting state up
 7. redux
 8. validation
-9. Router
-10. Refs
-11. child to parent communication
+9. Refs
+10. child to parent communication
