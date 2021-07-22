@@ -8,15 +8,15 @@
 8. props children
 9. Router
 10. Portal
+11. Context Api
 
 
 
 1. Axios
-2. Context Api
-3. hooks
-4. lifecycle
-5. lifting state up
-6. redux
-7. validation
-8. Refs
-9. child to parent communication
+2. hooks
+3. lifecycle
+4. lifting state up
+5. redux
+6. validation
+7. Refs
+8. child to parent communication

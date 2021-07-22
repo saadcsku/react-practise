@@ -1,11 +1,19 @@
 import React from 'react'
 import './App.css';
+import ComponentA from './ComponentA';
+import { UserProvider } from './UserContext';
 
 function App() {
+
+  const students=[
+    {id: 10, std:"saad"},
+    {id: 11, std:"wasi"}
+  ]
+
   return (
-    <div className="App">
-      <h1>Welcome</h1>
-    </div>
+    <UserProvider value={students}>
+      <ComponentA />
+    </UserProvider>
   );
 }
 
