@@ -1,11 +1,11 @@
 import React from 'react'
 import './App.css';
+import Portal from './Portal';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Welcome</h1>
-    </div>
+  
+    <Portal />
   );
 }
 
