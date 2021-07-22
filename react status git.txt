@@ -9,6 +9,7 @@
 9. Router
 10. Portal
 11. Context Api
+12. child to parent communication
 
 
 
@@ -19,4 +20,4 @@
 5. redux
 6. validation
 7. Refs
-8. child to parent communication
+

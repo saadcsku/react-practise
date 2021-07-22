@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import ComponentA from './ComponentA'
 
 function App() {
+
+  let students=[
+    {name: "saad", designation: "Head of Web Development", id:10},
+    {name: "wasi", designation: "Senior Web Developer", id:11},
+    {name: "kumail", designation: "CO-CEO", id:12},
+    {name: "hassan", designation: "CO-CEO", id:13}
+  ];
+
+const updateStudents = (val) =>{
+ console.log([...students, val]);
+}
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ComponentA  upstd={updateStudents} />
     </div>
   );
 }
