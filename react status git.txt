@@ -10,11 +10,12 @@
 10. Portal
 11. Context Api
 12. child to parent communication
+13. useEffect
 
 
 
 1. Axios
-2. hooks
+2. http
 3. lifecycle
 4. lifting state up
 5. redux
