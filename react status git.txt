@@ -14,11 +14,13 @@
 
 
 
-1. Axios
-2. http
-3. lifecycle
-4. lifting state up
-5. redux
-6. validation
-7. Refs
+1. Axios get
+2. Axios post
+3. Axios put
+4. Axios delete
+5. lifecycle
+6. redux
+7. validation
+8. Refs
+9. form2
 
